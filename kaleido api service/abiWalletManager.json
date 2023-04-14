@@ -1,0 +1,98 @@
+{
+  "input": {
+    "abi": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "newAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "userName",
+            "type": "string"
+          }
+        ],
+        "name": "addAddress",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getAddress",
+        "outputs": [
+          {
+            "internalType": "address[]",
+            "name": "",
+            "type": "address[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "getAllWallets",
+        "outputs": [
+          {
+            "internalType": "address[]",
+            "name": "",
+            "type": "address[]"
+          },
+          {
+            "internalType": "string[]",
+            "name": "",
+            "type": "string[]"
+          },
+          {
+            "internalType": "uint256[]",
+            "name": "",
+            "type": "uint256[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "addressToConsult",
+            "type": "address"
+          }
+        ],
+        "name": "getBalance",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "addressToConsult",
+            "type": "address"
+          }
+        ],
+        "name": "getsUerName",
+        "outputs": [
+          {
+            "internalType": "string",
+            "name": "",
+            "type": "string"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]  
+  }
+}
